@@ -31,13 +31,13 @@ export default async (req, res) => {
     let Promo = ''
 
     if (mostraPromocaoCell.value === 'VERDADEIRO') {
-      //TODO: GERAR CUPOM
+
 
       Cupom = genCupom()
       Promo = textoCell.value
     }
 
-    //Nome Email Whatsapp Cupom Promo
+
     await sheet.addRow({
       Nome: data.Nome,
       Email: data.Email,
