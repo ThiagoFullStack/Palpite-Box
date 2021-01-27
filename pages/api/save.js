@@ -1,5 +1,5 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet'
-import { fromBase64 } from '../../Utils/base64'
+// import { fromBase64 } from '../../utils/base64'
 import moment from 'moment'
 
 const doc = new GoogleSpreadsheet(process.env.VARIABLE_DOC_ID)
@@ -14,7 +14,8 @@ export default async (req, res) => {
   try {
     await doc.useServiceAccountAuth({
       client_email: process.env.VARIABLE_CLIENT_EMAIL,
-      private_key: fromBase64(process.env.VARIABLE_PRIVATE_KEY)
+      private_key: process.env.VARIABLE_PRIVATE_KEY
+      // private_key: fromBase64(process.env.VARIABLE_PRIVATE_KEY)
     })
     await doc.loadInfo()
     const sheet = doc.sheetsByIndex[1]
