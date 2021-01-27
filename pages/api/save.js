@@ -1,5 +1,5 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet'
-// import { fromBase64 } from '../../utils/base64'
+import fromBase64 from '../../utils/base64'
 import moment from 'moment'
 
 const doc = new GoogleSpreadsheet(process.env.VARIABLE_DOC_ID)
