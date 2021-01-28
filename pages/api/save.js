@@ -1,5 +1,4 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet'
-
 import moment from 'moment'
 
 const doc = new GoogleSpreadsheet(process.env.VARIABLE_DOC_ID)

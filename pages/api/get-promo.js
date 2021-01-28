@@ -1,11 +1,7 @@
 
 import { GoogleSpreadsheet } from 'google-spreadsheet'
 
-
 const doc = new GoogleSpreadsheet(process.env.VARIABLE_DOC_ID)
-
-
-
 
 export default async (req, res) => {
 
