@@ -15,16 +15,14 @@ export default async (req, res) => {
     await doc.useServiceAccountAuth({
       client_email: process.env.VARIABLE_CLIENT_EMAIL,
       private_key: fromBase64(process.env.VARIABLE_PRIVATE_KEY)
-      // private_key: process.env.VARIABLE_PRIVATE_KEY
-
     })
+
     await doc.loadInfo()
     const sheet = doc.sheetsByIndex[1]
     const data = JSON.parse(req.body)
 
     const sheetConfig = doc.sheetsByIndex[2]
     await sheetConfig.loadCells('A2:B2')
-
 
     const mostraPromocaoCell = sheetConfig.getCell(1, 0)
     const textoCell = sheetConfig.getCell(1, 1)
@@ -34,11 +32,9 @@ export default async (req, res) => {
 
     if (mostraPromocaoCell.value === 'VERDADEIRO') {
 
-
       Cupom = genCupom()
       Promo = textoCell.value
     }
-
 
     await sheet.addRow({
       Nome: data.Nome,

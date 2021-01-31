@@ -9,10 +9,8 @@ export default async (req, res) => {
 
       client_email: process.env.VARIABLE_CLIENT_EMAIL,
       private_key: fromBase64(process.env.VARIABLE_PRIVATE_KEY)
-
     })
     await doc.loadInfo()
-
 
     const sheet = doc.sheetsByIndex[2]
     await sheet.loadCells('A2:B2')
