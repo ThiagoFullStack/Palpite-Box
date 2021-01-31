@@ -35,7 +35,6 @@ export default async (req, res) => {
       Cupom = genCupom()
       Promo = textoCell.value
     }
-
     await sheet.addRow({
       Nome: data.Nome,
       Email: data.Email,
