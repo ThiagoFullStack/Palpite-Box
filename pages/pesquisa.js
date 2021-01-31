@@ -9,7 +9,7 @@ const Pesquisa = () => {
     Nota: 0
   })
   const notas = [0, 1, 2, 3, 4, 5]
-  const [sucess, setSuccess] = useState(false)
+  const [sucess, setSucess] = useState(false)
   const [retorno, setRetorno] = useState({})
   const save = async () => {
     // alert(1)
@@ -19,7 +19,7 @@ const Pesquisa = () => {
         body: JSON.stringify(form)
       })
       const data = await response.json()
-      setSuccess(true)
+      setSucess(true)
       setRetorno(data)
     } catch (err) {
 

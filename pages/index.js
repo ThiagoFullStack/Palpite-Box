@@ -8,7 +8,7 @@ const fecther = (...args) => fetch(...args).then(res => res.json())
 
 const Index = () => {
   const { data, error } = useSWR('/api/get-promo', fecther)
-  // return (<pre>{JSON.stringify(data)}</pre>)
+
   return (
     <div>
       <PageTitle title='Seja bem-vindo' />
