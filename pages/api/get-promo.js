@@ -4,6 +4,7 @@ import { GoogleSpreadsheet } from 'google-spreadsheet'
 const doc = new GoogleSpreadsheet(process.env.VARIABLE_DOC_ID)
 
 export default async (req, res) => {
+
   try {
     await doc.useServiceAccountAuth({
       client_email: process.env.VARIABLE_CLIENT_EMAIL,
@@ -16,7 +17,6 @@ export default async (req, res) => {
 
     const mostraPromocaoCell = sheet.getCell(1, 0)
     const textoCell = sheet.getCell(1, 1)
-
 
     res.end(JSON.stringify({
       showCoupon: mostraPromocaoCell.value === 'VERDADEIRO',

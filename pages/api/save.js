@@ -10,8 +10,8 @@ const genCupom = () => {
   return code.substr(0, 4) + '-' + code.substr(4, 4) + '-' +
     code.substr(8, 4)
 }
-export default async (req, res) => {
 
+export default async (req, res) => {
   try {
     await doc.useServiceAccountAuth({
       client_email: process.env.VARIABLE_CLIENT_EMAIL,
@@ -32,10 +32,10 @@ export default async (req, res) => {
     let Promo = ''
 
     if (mostraPromocaoCell.value === 'VERDADEIRO') {
-
       Cupom = genCupom()
       Promo = textoCell.value
     }
+
     await sheet.addRow({
       Nome: data.Nome,
       Email: data.Email,
