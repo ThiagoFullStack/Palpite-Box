@@ -1,5 +1,5 @@
 {
-  "name": "palpite-box",
+  "name": "palpitebox",
   "version": "1.0.0",
   "main": "postcss.config.js",
   "dependencies": {
