@@ -12,7 +12,7 @@ const Pesquisa = () => {
   const [sucess, setSucess] = useState(false)
   const [retorno, setRetorno] = useState({})
   const save = async () => {
-    // alert(1)
+
     try {
       const response = await fetch('/api/save', {
         method: 'POST',
