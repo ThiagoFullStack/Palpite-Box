@@ -1,9 +1,9 @@
 # ✅ Palpite-Box
 
 
+![Welcome](/print.png.png?raw=true).
 
-
-📋 Este projeto é o código-fonte feito pelo Visual Studio code aonde eu fiz commit para Github para subir para Vercel  , disponível em:  - [vercel.com (https://vercel.com/)] / ( https://palpite-box-ebon.vercel.app/ )
+📋 Este projeto é o código-fonte feito pelo Visual Studio code aonde eu fiz commit para Github para subir para Vercel  , disponível em:  - [vercel.com (https://vercel.com/)] / ( https://my-project-wine-ten.vercel.app/ )
 
 
 
@@ -17,9 +17,10 @@ Você precisa do NodeJS e do NPM instalado em sua máquina.
 
 ```
 npm init -y
-npm install next react react-dom {
+npm install next react react-dom
+    OBS:{
 dentro do package.json = [
-*tirar "test" colocar no lugar 
+*tirar o "test" colocar no lugar 
 ("dev": "next",
 "start": "next start",
 "build": "next build")
