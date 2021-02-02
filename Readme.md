@@ -3,7 +3,7 @@
 
 
 
-📋 Este projeto é o código-fonte feito pelo Visual Studio code aonde eu fiz commit para Github para subir para Vercel  , disponível em:  - [vercel.com (https://vercel.com/)] / ( https://palpite-box-lovat-omega.vercel.app )
+📋 Este projeto é o código-fonte feito pelo Visual Studio code aonde eu fiz commit para Github para subir para Vercel  , disponível em:  - [vercel.com (https://vercel.com/)] / ( https://palpite-box-ebon.vercel.app/ )
 
 
 
