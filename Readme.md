@@ -17,9 +17,10 @@ Você precisa do NodeJS e do NPM instalado em sua máquina.
 
 ```
 npm init -y
-npm install next react react-dom {
+npm install next react react-dom
+    OBS:{
 dentro do package.json = [
-*tirar "test" colocar no lugar 
+*tirar o "test" colocar no lugar 
 ("dev": "next",
 "start": "next start",
 "build": "next build")
