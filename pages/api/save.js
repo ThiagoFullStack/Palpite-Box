@@ -9,14 +9,12 @@ const genCupom = () => {
   return code.substr(0, 4) + '-' + code.substr(4, 4) + '-' +
     code.substr(8, 4)
 }
-
 export default async (req, res) => {
   try {
     await doc.useServiceAccountAuth({
       client_email: process.env.VARIABLE_CLIENT_EMAIL,
       private_key: fromBase64(process.env.VARIABLE_PRIVATE_KEY)
     })
-
     await doc.loadInfo()
     const sheet = doc.sheetsByIndex[1]
     const data = JSON.parse(req.body)
