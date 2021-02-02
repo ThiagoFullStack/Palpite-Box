@@ -1,7 +1,7 @@
 # ✅ Palpite-Box
 
 
-![Welcome](/print.png.png?raw=true)
+![Welcome(/print.png.png?raw=true).( https://my-project-wine-ten.vercel.app/ )]
 
 📋 Este projeto é o código-fonte feito pelo Visual Studio code aonde eu fiz commit para Github para subir para Vercel  , disponível em:  - [vercel.com (https://vercel.com/)] / ( https://my-project-wine-ten.vercel.app/ )
 
