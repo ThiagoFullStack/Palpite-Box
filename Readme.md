@@ -3,7 +3,7 @@
 
 ![Welcome](/print.png.png?raw=true).
 
-📋 This project is the source code made by Visual Studio code where I commit to Github to upload to Vercel, available at:  - [vercel.com (https://vercel.com/)] / ( https://my-project-wine-ten.vercel.app/ )
+📋 This project is the source code made by Visual Studio code where I commit to Github to upload to Vercel, available at:  - [vercel.com (https://vercel.com/)] Access the site ➡ ( https://my-project-wine-ten.vercel.app/ )
 
 
 
