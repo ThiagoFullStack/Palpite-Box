@@ -3,29 +3,29 @@
 
 ![Welcome](/print.png.png?raw=true).
 
-📋 Este projeto é o código-fonte feito pelo Visual Studio code aonde eu fiz commit para Github para subir para Vercel  , disponível em:  - [vercel.com (https://vercel.com/)] / ( https://my-project-wine-ten.vercel.app/ )
+📋 This project is the source code made by Visual Studio code where I commit to Github to upload to Vercel, available at:  - [vercel.com (https://vercel.com/)] / ( https://my-project-wine-ten.vercel.app/ )
 
 
 
-## 🎉 Início
+## 🎉 Start
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### 📝 Pré-requisitos:
 
-Você precisa do NodeJS e do NPM instalado em sua máquina.
+You need NodeJS and NPM installed on your machine.
 
 ```
 npm init -y
-npm install next react react-dom
-    OBS:{
-dentro do package.json = [
-*tirar o "test" colocar no lugar 
-("dev": "next",
-"start": "next start",
-"build": "next build")
+npm install next react react-dom 
+  ↪ 🛑 OBS:{
+inside the package.json = [
+ 📌Remove o ("❌test") Put in place 
+("dev": "next",✔
+"start": "next start",✔
+"build": "next build" ✔)
 ]}
-  npm run dev
+npm run dev (run the project in the terminal ✔)
 npm install tailwindcss 
 npx tailwindcss init
 npm install postcss-import
@@ -38,9 +38,9 @@ npm install moment
 
 ## 📁 Layout:
 
-Criamos o layout utilizando o VS Code. Você pode encontrar o arquivo [aqui](https://code.visualstudio.com/).
+We created the layout using VS Code. You can find the file [aqui](https://code.visualstudio.com/).
 
-## 🏆 Colocando em produção:
+## 🏆 Putting into production:
 
 SHEET_CLIENT_EMAIL=client email do service credential.
 
@@ -48,10 +48,11 @@ SHEET_PRIVATE_KEY=private key do service credential - lembrar de substituir \n p
 
 SHEET_DOC_ID=id da planilha.
 
-## 📢 Construído com:
+## 📢 Built with:
 
 * [NextJS](https://nextjs.org/) -The React Framework.
 * [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework for
+* [Figma](https://www.figma.com/) - Online prototyping tool.
 rapidly building custom designs.
 * [Vercel](https://vercel.com/) - Online prototyping tool.
 * [PurgeCSS](https://purgecss.com/) - Remove unused CSS. 
@@ -60,10 +61,10 @@ rapidly building custom designs.
 
 * 😎 **Thiago Caetano** - [LinkedIn](https://www.linkedin.com/in/thiagocb2-developer-fullstack/)
 
-## 🧾 Licença
+## 🧾 License
 
-Este projeto é licenciado sobre a licença MIT - veja [LICENSE.md](LICENSE.md) para mais informações.
+This project is licensed under the MIT license - veja [LICENSE.md](LICENSE.md) for more information.
 
 ## 👨‍🎓 Acknowledgments 🎉
 
-* Este projeto foi construído durante as aulas do Fullstack Master do [DevPleno](https://devpleno.com).
+* This project was built during the classes of the Fullstack Master of [DevPleno](https://devpleno.com).
